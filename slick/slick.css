@@ -89,12 +89,19 @@
 .slick-slide img
 {
     display: block;
-    border-radius: 370px;
+
 }
+
+#section1 .slick-slide img
+{
+  border-radius: 370px;
+}
+
 .slick-slide.slick-loading img
 {
     display: none;
 }
+
 .slick-slide.dragging img
 {
     pointer-events: none;
