@@ -791,3 +791,11 @@ p{
    #section4 .fa-circle{
      color: #ffffff;
    }
+
+  #section4 .widget-facebook {
+    height: 488px;
+  }
+
+  #section4 .widget-facebook .facebook_iframe {
+    border: none;
+  }
