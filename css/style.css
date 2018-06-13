@@ -729,9 +729,14 @@ p{
 .round{
   margin-bottom: 50px;
 }
+
+
 .round img{
     border-radius: 150px; /* Радиус скругления */
-    width: 100%;
+    width: 190px;
+    height: 190px;
+    -o-object-fit: cover;
+    object-fit: cover;
    }
 
    .round-text div{
