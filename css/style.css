@@ -1055,3 +1055,7 @@ input[type="submit"] {
 .footer{
   background: #a6a8ab;
 }
+
+.download{
+  margin-top: 50px;
+}
