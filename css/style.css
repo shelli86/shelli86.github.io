@@ -61,6 +61,7 @@ body{
 .container{
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .wrap{
@@ -69,6 +70,7 @@ body{
 	width: 960px;
 	position: relative;
 }
+
 h1{
 	font-size: 6em;
 }
@@ -799,3 +801,257 @@ p{
   #section4 .widget-facebook .facebook_iframe {
     border: none;
   }
+
+ #section4 .news img{
+   width: 100%;
+   display: block;
+   margin: 0;
+   padding: 0;
+   height: 390px;
+ }
+
+ #section4 .news .news-descr{
+   height: 98px;
+   background: #ffffff;
+   min-width: 100%;
+ }
+
+  #section4 .news h4{
+    font-size: 20px;
+  }
+
+   #section4 .news .news-descr a{
+     color: #10BED5;
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+   }
+
+#section4 .news .news-descr i{
+  font-size: 18px;
+  padding-left: 10px;
+
+}
+
+#section5{
+  background: #a6a8ab;
+}
+
+.footer{
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+.footer .contacts{
+  text-align: left;
+}
+
+.footer .contacts h2{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'Arsenal', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.footer .fa-circle{
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+
+.footer .form-main .fa-circle{
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.footer .contacts li{
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.footer .contacts .soc-icons li{
+  display: inline-block;
+  line-height: 2.5;
+}
+
+.footer .contacts .soc-icons li a{
+  display: block;
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.footer .form-main h2{
+  text-align: right;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'Arsenal', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.footer .form-main form p{
+  text-align: right;
+}
+
+.footer input,
+.footer textarea{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.footer textarea{
+  margin-bottom: 0;
+}
+
+textarea::placeholder,
+input::placeholder{
+  font-family: 'Arsenal', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  border:none;
+  background-color: #10bed5;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 20%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+/***********************Project**************************************/
+
+.menu{
+  width: 100%;
+  background: #10bed5;
+  height: 90px;
+}
+
+.menu-inner li {
+	display:inline-block;
+	margin: 30px;
+  margin-top: 10px;
+	color: #10bed5;
+	background:#fff;
+	background: rgba(255,255,255, 0.8);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+
+.menu-inner li.active{
+	background:#666;
+	background: rgba(0,0,0, 1);
+	color: #fff;
+}
+
+.menu-inner li a{
+	text-decoration:none;
+	color: #10bed5;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu-inner li:hover{
+    background: #ffffff;
+}
+
+.menu-inner li a,
+.menu-inner li.active a{
+	padding: 18px 36px;
+	display:block;
+}
+.menu-inner li.active a{
+	color: #fff;
+}
+.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+.main{
+  margin-top: 150px;
+}
+
+.main .col-12{
+  margin-bottom: 50px;
+}
+
+#project .main h2{
+  font-size: 30px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #10bed5;
+  font-weight: bold;
+}
+
+#project .main .col-12 p{
+  font-size: 25px;
+  text-align: right;
+  font-style: italic;
+}
+
+#project .main .cols{
+  float: none;
+}
+
+#project .main .row-flex{
+  display: flex;
+}
+
+#project .main .col-4{
+  background-color:#10bed5;
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#project .main .col-8{
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+#project .main .col-4 h3,
+#project .main .col-8 h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#project .main .col-8 h3{
+  color: #10bed5;
+}
+
+#project .main .col-4 p,
+#project .main .col-8 p{
+  font-size: 18px;
+}
+
+.footer{
+  background: #a6a8ab;
+}

@@ -72,7 +72,7 @@
   	</div>
 
 
-  	<div class="section" id="section1">
+  	<div class="section fp-noscroll" id="section1">
 
         <div class="container">
 
@@ -122,10 +122,10 @@
             <h3>Тренинги</h3>
             <i class="fas fa-circle"></i>
             <ul>
-              <li><a href="#" class="btn-2">Менеджмент и лидерство</a></li>
-              <li><a href="#" class="btn-2">Коммуникации и публичные выступления</a></li>
-              <li><a href="#" class="btn-2">Клиентсервис и продажи</a></li>
-              <li><a href="#" class="btn-2">Эмоциональная компетентность </a></li>
+              <li><a href="project.html" class="btn-2">Менеджмент и лидерство</a></li>
+              <li><a href="project.html" class="btn-2">Коммуникации и публичные выступления</a></li>
+              <li><a href="project.html" class="btn-2">Клиентсервис и продажи</a></li>
+              <li><a href="project.html" class="btn-2">Эмоциональная компетентность </a></li>
             </ul>
           </div>
         </div>
@@ -134,10 +134,10 @@
             <h3>Коучинг</h3>
             <i class="fas fa-circle"></i>
             <ul>
-              <li><a href="#" class="btn-2">Executive coaching</a></li>
-              <li><a href="#" class="btn-2">Организационный коучинг</a></li>
-              <li><a href="#" class="btn-2">Личностный коучинг</a></li>
-              <li><a href="#" class="btn-2">Медиаторство</a></li>
+              <li><a href="project.html" class="btn-2">Executive coaching</a></li>
+              <li><a href="project.html" class="btn-2">Организационный коучинг</a></li>
+              <li><a href="project.html" class="btn-2">Личностный коучинг</a></li>
+              <li><a href="project.html" class="btn-2">Медиаторство</a></li>
             </ul>
           </div>
         </div>
@@ -146,10 +146,10 @@
             <h3>Драйв для команд</h3>
             <i class="fas fa-circle"></i>
             <ul>
-              <li><a href="#" class="btn-2">Team квесты</a></li>
-              <li><a href="#" class="btn-2">Cash flow</a></li>
-              <li><a href="#" class="btn-2">Бизнес игры</a></li>
-              <li><a class="btn-2" href="#">Тренинг «Эффективная команда»</a></li>
+              <li><a href="project.html" class="btn-2">Team квесты</a></li>
+              <li><a href="project.html" class="btn-2">Cash flow</a></li>
+              <li><a href="project.html" class="btn-2">Бизнес игры</a></li>
+              <li><a class="btn-2" href="project.html">Тренинг «Эффективная команда»</a></li>
             </ul>
           </div>
         </div>
@@ -352,17 +352,57 @@
 					<div id="instafeed"></div>
 				</div>
 
-          <div class="cols col-4">
+          <div class="cols col-4 news">
             <img src="img/pf3.jpg">
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, est aonsectetur adipiscing elit. Integer euismod, est a</h4>
-            <a href="#" class="read-more">Дальше</a>
+						<div class="news-descr">
+							<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, est aonsectetur adipiscing</h4>
+							<a href="#" class="read-more">Дальше<i class="fas fa-angle-right"></i></a>
+						</div>
           </div>
 
       </div>
 
     </div>
 
+		<div class="section fp-auto-height fp-noscroll" id="section5">
 
+			<div class="footer">
+				<div class="container">
+
+					<div class="cols col-4 contacts">
+						<h2>Наш адрес<i class="fas fa-circle"></i></h2>
+						<ul class="address">
+							<li>01001</li>
+							<li>г. Львов</li>
+							<li>ул. Главная, 23</li>
+							<li>тел.: +38 097 000 00 00</li>
+							<li>e-mail: mail@d-space.com.ua</li>
+						</ul>
+
+						<ul class="soc-icons">
+							<li><a href="#" black><i class="fab fa-facebook"></i></a></li>
+							<li><a href="#" black><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="cols col-8 form-main">
+						<h2><i class="fas fa-circle"></i>Написать нам</h2>
+
+						<form name="" method="" action="">
+						  <p>
+						   <input type="text" size="31" placeholder="ИМЯ">
+							 <input type="text" size="31" placeholder="E-MAIL">
+						  </p>
+						   <p><textarea name="comment" cols="52" rows="4" placeholder="Текст сообщения"></textarea></p>
+						  <p><input type="submit" value="Отправить"></p>
+						 </form>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
 
 
   </div>
@@ -395,13 +435,15 @@
 
 
 	<script type="text/javascript">
-	    var feed = new Instafeed({
-	        get: 'tagged',
-	        tagName: 'awesome',
-	        clientId: 'd6499019faed40b2895e7fe33375d645'
-	    });
-	    feed.run();
-	</script>
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 352882969,
+        accessToken: '352882969.d649901.4afa3ad5687c42d5b5937a266afac677',
+				limit: 6,
+
+        });
+    userFeed.run();
+</script>
 
 
 </body>
