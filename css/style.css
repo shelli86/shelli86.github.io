@@ -251,7 +251,61 @@ body{
   text-transform: uppercase;
 }
 
+.banner{
+  position: relative;
+}
 
+.banner h1{
+  position: absolute;
+  bottom: 30%;
+  line-height: 1.7;
+  background: rgba(255, 255, 255, 0.8);
+  left: 5%;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #FF0000;
+  font-size: 2em;
+}
+
+.decor{
+  list-style: none;
+}
+
+.decor li{
+  background: #858585;
+  padding: 20px;
+}
+
+.decor a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.text .col-3{
+  color: #ffffff;
+}
+
+.text .col-9 h2{
+  text-transform: uppercase;
+  color: #FF0000;
+}
+
+.text .col-9 h2,
+.text .col-9 p{
+  margin-bottom: 10px;
+}
+
+
+.footer{
+  background: #494949;
+  height: 50px;
+  margin-top: 30px;
+  color: #838484;
+  text-align: center;
+  line-height: 50px;
+}
 
 
 
