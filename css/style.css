@@ -60,7 +60,6 @@ body{
 
 .logo{
   background: #858585;
-  height: 100px;
 }
 
 .contacts-top{
@@ -142,11 +141,29 @@ body{
   color: #63717f;
 }
 
+.header h1{
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.logo-main{
+  margin-top: 10px;
+}
 
 /********************menu****************************/
 
 .menu-inner{
   background: #858585;
+}
+
+.menu-inner h1{
+  float: left;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1em;
 }
 
 .menu-inner ul{
@@ -182,7 +199,6 @@ body{
 .menu-inner ul li:hover a{
   background-color: #FF0000;
 }
-
 
 
 .menu{
@@ -222,9 +238,6 @@ body{
 .menu ul .active:hover a{
   color: #ffffff;
 }
-
-
-
 
 
 .main{
@@ -295,13 +308,6 @@ body{
   text-transform: uppercase;
 }
 
-.header h1{
-  line-height: 1.7;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 1em;
-  margin-top: 40px;
-}
 
 .decor{
   list-style: none;
@@ -448,6 +454,10 @@ body{
 .product-text p{
   margin-bottom: 10px;
   font-size: 20px;
+}
+
+.logo-inner{
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
