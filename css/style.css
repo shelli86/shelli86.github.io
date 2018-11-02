@@ -460,6 +460,44 @@ body{
   margin-top: 10px;
 }
 
+.main-catalog{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main-catalog .cols>div{
+  position: relative;
+}
+
+.main-catalog img{
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-catalog a{
+  color: #ffffff;
+  background: #FF0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.absolute-center{
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (min-width: 300px) and (max-width: 479px) {
 
 
