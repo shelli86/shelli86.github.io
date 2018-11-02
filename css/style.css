@@ -498,6 +498,11 @@ body{
   right: 0;
 }
 
+.catalog-inner{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 479px) {
 
 
