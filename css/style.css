@@ -417,6 +417,38 @@ body{
   color: #FF1D25;
 }
 
+.product-inner .col-8{
+  padding: 20px;
+  padding-top: 0;
+}
+
+.descr-product table .red{
+  background-color: #FF0000;
+  padding: 5px;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.descr-product table tr td:last-child{
+  color: #000000;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.product-use{
+  margin-top: 50px !important;
+}
+
+.product-text{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.product-text p{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
 
