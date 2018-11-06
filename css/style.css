@@ -141,9 +141,13 @@ body{
   color: #63717f;
 }
 
+.logo .container{
+  width: 96%;
+  max-width: 1500px;
+}
+
 .logo-main{
   margin-top: 10px;
-  margin-left: -50px;
 }
 
 .header h1{
