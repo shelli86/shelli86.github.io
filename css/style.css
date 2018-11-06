@@ -65,7 +65,7 @@ body{
 .contacts-top{
   list-style: none;
   float: right;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -141,15 +141,17 @@ body{
   color: #63717f;
 }
 
+.logo-main{
+  margin-top: 10px;
+  margin-left: -50px;
+}
+
 .header h1{
   line-height: 1.7;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 1em;
-}
-
-.logo-main{
-  margin-top: 10px;
+  font-size: 1.2em;
+  margin-top: 30px;
 }
 
 /********************menu****************************/
