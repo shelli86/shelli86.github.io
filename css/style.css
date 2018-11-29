@@ -61,23 +61,24 @@ body{
 
 header{
   background-color: #85b4d0;
-  -min-height: 150px;
+  height: 50px;
 }
 
 header .container{
   position: relative;
 }
 
-/********************menu****************************/
-
-.menu-top{
-	height: 40px;
+header .logo img{
+  margin: 0;
+  padding: 0;
+  display: block;
 }
+
+/********************menu****************************/
 
 .main-menu ul{
 	list-style: none;
 	float: right;
-  margin-top: 90px;
 }
 
 .main-menu ul li{
@@ -89,7 +90,7 @@ header .container{
 .main-menu ul li a{
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: 20px;
 	color: #ffffff;
 	text-align: right;
 	line-height: 50px;
@@ -170,16 +171,16 @@ header .container{
 .icon-menu {
   color: #fff;
   cursor: pointer;
-  padding-top: 13px;
   text-decoration: none;
   text-transform: uppercase;
-  position: absolute;
-  top: 70px;
-  right: 0;
+  margin-top: 10px;
 }
 
 .icon-menu img {
-  margin-right: 5px;
+  float: right;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .banner img{
