@@ -259,10 +259,11 @@ header .logo img{
 
 .tariffs ul li{
   text-transform: none;
-  padding: 0 10px;
+  text-align: center;
   color: #516673;
   line-height: normal;
   font-size: 18px;
+	list-style: none;
 }
 
 footer{
