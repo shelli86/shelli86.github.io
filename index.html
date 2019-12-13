@@ -1,157 +1,263 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <!-- Bootstrap CSS -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <title></title>
 
 </head>
 
+
 <body>
 
-  <header>
-    <div class="container">
-      <div class="cols col-10">
-        <div class="phrase">
-          <h1>Художнє декорування <br> сходів</h1>
-        </div>
-      </div>
 
-      <div class="cols col-2">
-        <div class="logo">
-          <img src="img/logo.png" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="menu">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <ul>
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Наші роботи</a></li>
-        <li><a href="#">Контакти</a></li>
+
+    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon my-toggler"><i class="fas fa-bars"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active text-uppercase"><a class="nav-link" data-value="about" href="#">Головна</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link" data-value="portfolio"href="#">Знайомство</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="blog" href="#">Консультація</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="team" href="#">Лікування</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="contact" href="#">Медіа</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="contact" href="#">Відгуки</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="contact" href="#">Блог</a></li>
+        <li class="nav-item text-uppercase"><a class="nav-link " data-value="contact" href="#">Контакти</a></li>
       </ul>
     </div>
+
+  </div>
+</nav>
+
+
+
+<header class="header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col px-0 banner">
+        <img src="images/banner.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="working-hours">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 sign">
+        <i class="fas fa-id-card"></i>
+        <h2>Записатися на прийом</h2>
+          <div class="textwidget contacts-addres">
+            <ul class="list-unstyled">
+              <li>dr@shkiryak.com.ua</li>
+              <li>‎<a href="tel:‎+38 097 103 1 103">‎+38 (097) 103 1 103</a></li>
+              <li>‎<a href="tel:‎+38 093 103 1 103">‎+38 (093) 103 1 103</a></li>
+              <li>‎<a href="tel:‎‎‎‎+38 099 103 1 103">+38 (099) 103 1 103</a></li>
+            </ul>
+            <button type="button" class="btn btn-dark btn-lg">Записатися</button>
+          </div>
+      </div>
+      <div class="col-md-4 neurosurgery">
+        <i class="fas fa-id-card"></i>
+        <h2>Нейрохірургія</h2>
+        <p>Мікрохірургічні втручання на головному та спинному мозку під нейромоніторингом з швидкою реабілітацією пацієнта.</p>
+      </div>
+      <div class="col-md-4 oncology">
+        <i class="fas fa-id-card"></i>
+        <h2>Онкологія</h2>
+        <p>Встановлення тактики лікування при будь-яких пухлинних паталогіях, оптимізовано під пацієнта. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="welcome">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 photo-welcome px-0">
+          <div class="overlay"></div>
+        </div>
+        <div class="col-md-8 text-welcome text-left">
+            <h2><span>Шкіряк</span> Антон Антонович</h2>
+            <p>лікар-нейрохірург, онколог, менеджер та громадський діяч в сфері охорони здоров'я України, асистент опорної кафедри нейрохірургії Національної медичної академії післядипломної освіти ім. П.Л. Шупика, експерт багатьох медичних та соціальних програм на центральних телеканалах країни.</p>
+            <button class="btn btn-primary btn-lg mr-4">Детальніше</button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="banner">
-    <img src="img/banner.jpg" alt="">
+<div class="data">
+  <div class="container">
+    <div class="send-data row">
+      <div class="col-md-6">
+        <form action="#" target="">
+          <button class="btn btn-primary btn-lg"><i class="fas fa-medkit mr-4"></i>Надіслати дані</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <p>Надішліть результати обстежень (знімки МРТ або КТ, висновки, анамнез) для отримання заочної думки лікаря.</p>
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="main">
 
-    <div class="section-1">
-      <img src="img/element1.png" alt="">
-      <p>Візерунки, плавні лінії,<br>
-         красиві форми - всього цього можна <br>
-         досягти завдяки художньому декоруванню.</p>
-    </div>
-
-    <div class="section-2">
-      <div class="row">
-        <div class="cols col-7">
-          <div>Художнє оформлення <br>
-             ваших сходів - це вже мистецтво.
+<div class="statistics">
+  <div class="container px-0">
+    <div class="benefits">
+      <div class="benefits_inner">
+        <div class="ml-4">
+          <h1 class="benefits_header">
+              Важлива <span>Cтатистика</span>
+          </h1>
+          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone</p>
+        </div>
+          <div class="row">
+            <div class="benefits_element col-md-4 text-center">
+                <i class="fas fa-briefcase"></i>
+                <p class="benefits_number">10000</p>
+                <p class="benefits_title">сотрудников по всему миру</p>
+            </div>
+            <div class="benefits_element col-md-4 text-center">
+                <i class="fas fa-briefcase"></i>
+                <p class="benefits_number">500</p>
+                <p class="benefits_title">успешных проектов в год</p>
+            </div>
+            <div class="benefits_element col-md-4 text-center">
+                <i class="fas fa-briefcase"></i>
+                <p class="benefits_number">15</p>
+                <p class="benefits_title">лет в сфере разработки</p>
+            </div>
           </div>
-        </div>
-        <div class="cols col-5">
-          <img src="img/foto1.jpg" alt="">
-        </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="section-3">
-      <div class="row">
-        <div class="cols col-7">
-          <img src="img/foto2.jpg" alt="">
-        </div>
-        <div class="cols col-5">
-          <div>Наша компанія RedWood пропонує Вам дізнатися <br>
-            більше про те, як прикрасити ваші сходи.
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="section-4">
-      <div class="foto-bg">
-        <img src="img/foto-bg.jpg" alt="">
-      </div>
-      <div class="row">
-        <div class="section-text">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="button-main">
-      <a href="#">Каталог</a>
-    </div>
-
-  </div> <!--end main-->
-
-  <div class="contacts-main">
-
+<div class="news">
+  <div class="container-fluid">
     <div class="row">
 
-      <div class="cols col-6">
-        <div class="container">
-          <h3>ЗВ’ЯЗАТИСЯ З НАМИ</h3>
-          <ul>
-            <li>email@gmail.com</li>
-            <li>+38 (097) 000 00 00</li>
-            <li>Facebook</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="cols col-6">
-        <div class="container">
-          <h3>АДРЕСА</h3>
-          <ul>
-          <li>Закарпатська обл., Тячівський р-н</li>
-          <li>смт. Буштино </li>
-          <li>вул. Комерційна 1</li>
-          </ul>
-        </div>
-      </div>
 
     </div>
-
-  </div> <!--end contacts-main-->
-
-  <footer>
-
- <p>2019 &copy; Всі права захищено</p>
-
-  </footer>
+  </div>
+</div>
 
 
-  <script type="text/javascript">
-        jQuery("document").ready(function($){
+<div class="faq">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 response">
 
-    	var nav = $('.menu');
 
-    	$(window).scroll(function () {
-    		if ($(this).scrollTop() > 150) {
-    			nav.addClass("f-nav");
-    		} else {
-    			nav.removeClass("f-nav");
-    		}
-    	});
+        <div id="carouselReviews" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <div class="row">
+               <div class="offset-md-1 col-md-9 col-sm-9">
+                <div class="review">
+                 Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                <div class="review-author">Марія, Україна</div>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+           <div class="row">
+              <div class="offset-sm-2 col-sm-3 col-md-2">
+                <img src="images/igor.jpg" class="img-fluid rounded-circle d-block m-auto pb-3"
+        alt="Игорь Минаев"></div>
+              <div class="offset-md-1 col-md-5 col-sm-5">
+               <div class="review">
+                Отличный уровень сервиса. Доставили посылку за пару дней.
+                А цены очень приемлемые за подобную доставку.
+                <div class="review-author">Игорь Минаев</div>
+               </div>
+              </div>
+           </div>
+         </div>
+         <div class="carousel-item">
+          <div class="row">
+            <div class="offset-sm-2 col-sm-3 col-md-2">
+             <img src="images/mila.jpg" class="img-fluid rounded-circle d-block m-auto pb-3"
+        alt="Мила Синицина"></div>
+              <div class="offset-md-1 col-md-5 col-sm-5">
+                <div class="review">
+                 Очень понравился товар. Посылка пришла быстро. Заказывыла подруге в подарок. Теперь хочу для себя.
+                <div class="review-author">
+                  Мила Синицина
+                </div>
+              </div>
+             </div>
+            </div>
+          </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselReviews" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+        </div>
 
-    });
-  </script>
+
+
+      </div>
+
+
+
+      <div class="col-md-8 question">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer id="footer" class="footer navbar-fixed-bottom py-4">
+  <div class="container text-center">
+    <small>&copy; 2020 shkiryak.com.ua</small><br>
+    <small>Інформація на сайті призначена тільки для ознайомлення. Проконсультуйтеся з фахівцем, щоб не завдати шкоди своєму здоров'ю.</small>
+  </div>
+  <div class="container text-center social">
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube-square"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+<script type="text/javascript" src='js/main.js'></script>
+<script type="text/javascript" src="js/jquery.spincrement.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+  $('.carousel').carousel({
+  interval: 4000
+  })
+</script>
 
 </body>
+
+</html>

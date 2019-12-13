@@ -1,356 +1,332 @@
-*{
-	margin:0;
-	padding:0;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-}
 
-body{
-  background: #ffffff;
-  font-family: 'Philosopher', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-	line-height: 20px;
-	word-wrap: break-word;
-}
+body {
+    color: #666666;
+    padding-top: 92px;
+  }
 
-.container{
-  margin: 0 auto;
-  width: 80%;
-  max-width: 1268px;
-}
+/*menu*/
 
-.cols{
-	float:left;
-  margin: 0 auto;
-}
+  .navbar{
+    background:#ffffff;
+  }
 
-.cols.col-1{width:8.333333333333333%;}
-.cols.col-2{width:16.66666666666667%;}
-.cols.col-3{width:25%}
-.cols.col-4{width:33.33333333333333%;}
-.cols.col-5{width:41.66666666666667%;}
-.cols.col-6{width:50%;}
-.cols.col-7{width:58.33333333333333%;}
-.cols.col-8{width:66.66666666666666%;}
-.cols.col-9{width:75%;}
-.cols.col-10{width:83.33333333333333%;}
-.cols.col-11{width:91.66666666666666%;}
-.cols.col-12{width:100%;}
+  .nav-link,
+  .navbar-brand{
+    color: #999999;
+    cursor: pointer;
+  }
 
-/***********************MENU***************************************/
+  .nav-link{
+    font-size: 0.9rem;
+  }
 
-.container:before,
-.container:after,
-.row:before,
-.row:after,
-.clear:before,
-.clear:after{
-	content:"";
-	display:table;
-}
+  .navbar-nav .nav-link:hover{
+    color: #1080d0;
+  }
 
-.container:after,
-.row:after,
-.clear:after{
-	clear:both;
-}
+  .navbar-nav{
+    text-align: center;
+  }
 
+  .navbar-nav .active a{
+    color: #1080d0;
+  }
 
-header{
-  height: 150px;
-  background: #333333;
-  color: #CC9966;
-}
+  .navbar-collapse{
+    justify-content: flex-end;
+  }
 
-header .phrase{
-  text-align: right;
-  font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: normal;
-  margin-top: 30px;
-}
+  .my-toggler i{
+    font-size: 18px;
+    line-height: 23px;
+    color:#666666;
+  }
 
-header .logo{
-  text-align: right;
-  margin-top: 20px;
-}
+  .navbar-toggler{
+    font-size: 1rem;
+    border: 2px solid #cdcdcd;
+    padding: .25rem .25rem;
+  }
 
-.menu{
-  background-color: rgba(249, 200, 168, 0.86);
-  height: 50px;
-  width:100%;
-  overflow:hidden;
-  position:relative;
-}
+  .navbar-brand{
+    margin-right: 0.8rem;
+  }
 
-.menu ul{
-  list-style: none;
-  text-transform: uppercase;
-  float:left;
-  position:relative;
-  left:50%;
-}
+  .navbar-brand img{
+    width: 220px;
+  }
 
-.menu ul li{
-  float: left;
-  position:relative;
-  right:50%;
-}
-
-.menu ul li a{
-  color: #ffffff;
-  font-size: 20px;
-  text-decoration: none;
-  line-height: 50px;
-  display: block;
-  padding: 0px 30px;
-}
-
-.menu ul li a:hover {
-  transition: 0.5s;
-  background-color: #AF9689;
-}
-
-.f-nav{
-  z-index: 9999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  transition: 0.5s;
-}
+/*header*/
 
 .banner{
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
+  min-height: 500px;
+  max-height: 600px;
+  position: relative;
 }
 
 .banner img{
   width: 100%;
-}
-
-.main .section-1{
-  text-align: center;
-}
-
-.main .section-1 img{
-  margin-top: 50px;
-  margin-bottom: 30px;
-  width: 70px;
-}
-
-.main .section-1 p{
-  color: #999999;
-  font-size: 19px;
-  margin-bottom: 50px;
-  line-height: 2;
-}
-
-.main .section-2{
-  height: 400px;
-  overflow: hidden;
-}
-
-.main .section-2 .col-7{
-  background-color: #AF9689;
-  color: #ffffff;
-  height: 400px;
-  text-align: center;
-  display: table;
-}
-
-.main .section-2 .col-7 div{
-  display: table-cell;
-  vertical-align: middle;
-  line-height: 2;
-  font-size: 19px;
-}
-
-.main .section-2 .col-5{
-  height: 400px;
-}
-
-.main .section-2 img{
-  width: 100%;
-  height: 400px;
+  height: 100%;
   object-fit: cover;
 }
 
 
-.main .section-3{
-  height: 400px;
-  overflow: hidden;
-}
+/*working-hours*/
 
-.main .section-3 .col-5{
-  background-color: #665048;
+.working-hours{
+  margin-top: -4em;
   color: #ffffff;
-  height: 400px;
-  text-align: center;
-  display: table;
-  padding: 10px;
 }
 
-.main .section-3 .col-5 div{
-  display: table-cell;
-  vertical-align: middle;
-  line-height: 2;
-  font-size: 19px;
+.working-hours i{
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
-.main .section-3 .col-7{
-  height: 400px;
+.working-hours h2{
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
-.main .section-3 img{
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
+.working-hours .sign,
+.working-hours .neurosurgery,
+.working-hours .oncology{
+  padding: 2.5em;
+  height: 450px;
+  font-size: 0.9em;
+}
+
+.sign{
+  background-color: #1080d0;
+}
+
+.working-hours .sign li a{
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+.neurosurgery{
+  background-color: #1177c0;
+}
+
+.oncology{
+  background-color: #0f6eb3;
 }
 
 
-.main .section-4{
-  width: 100%;
-  min-height: 300px;
-  overflow: hidden;
-  /*background-image: url('../img/foto-bg.jpg');
+@media (max-width: 767px) {
+  .working-hours .sign,
+  .working-hours .neurosurgery,
+  .working-hours .oncology{
+    padding: 3em;
+    height: 330px;
+    font-size: 0.9em;
+  }
+}
+
+/*welcome*/
+
+.text-welcome{
+  background-color: #f8f8f8;
+  padding: 75px 0px 50px 65px;
+}
+
+.photo-welcome{
+  background-image: url('../images/DSC_4441.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-origin: content-box;*/
-  position: relative;
+  min-height: 300px;
 }
 
-.foto-bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -1;
+.photo-welcome .overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
 }
 
-.main .section-4 .row{
-  height: 300px;
-  overflow: hidden;
-  display: table;
-  margin: 50px;
-}
-
-.main .section-4 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.section-text{
-  width: 80%;
-  height: 200px;
-  text-align: center;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: table-cell;
-  vertical-align: middle;
-  line-height: 2;
-  font-size: 19px;
-  padding: 50px;
-}
-
-
-.button-main{
-  height: 150px;
-  background: #ffffff;
-}
-
-.button-main a{
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 30px;
-  border: 1px solid #000000;
-  color: #000000;
-  padding: 10px;
-  text-decoration: none;
+.text-welcome h2{
+  color: #1080d0;
   text-transform: uppercase;
-  font-size: 18px;
-  display: block;
-  margin-top: 100px;
 }
 
-.contacts-main{
-  height: 250px;
-  background-color: rgba(249, 200, 168, 1);
+.text-welcome span{
+  font-weight: bold;
+}
+
+.text-welcome .btn{
+  float: right;
+}
+
+.btn-primary {
+  background-color: #1080d0;
+  border-color: #1080d0;
+}
+
+
+/*data*/
+
+.data{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.send-data button{
+    background-color: #CDCDCE;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #1080d0;
+    border: none;
+    font-size: 1.8em;
+}
+
+.send-data p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #666666;
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  .text-welcome{
+    padding: 75px 0px 50px 35px;
+  }
+}
+/*statistics*/
+
+
+.statistics {
+    width: 100%;
+    background-image: url("https://demo.goodlayers.com/infinite/homepages/medical/wp-content/uploads/sites/16/2016/06/counter-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.benefits_inner {
+    padding: 60px 0;
+}
+
+.benefits_header {
+  width: 100%;
+  text-align: left;
+  line-height: 1.3;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.benefits_inner p{
   color: #ffffff;
 }
 
-.contacts-main .row{
-  padding-top: 50px;
-  padding-bottom: 50px;
+.benefits_header span{
+  color: #1080d0;
 }
 
-.contacts-main h3{
-  font-size: 20px;
+.benefits_icon {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.benefits_element{
   margin-bottom: 30px;
+  margin-top: 30px;
+  border-right: 1px solid #30a8fe;
 }
 
-.contacts-main ul{
-  list-style: none;
+.row .benefits_element:last-child{
+  border-right: none;
 }
 
-.contacts-main ul li{
-  line-height: 2;
-}
-
-.contacts-main .col-6:last-child ul,
-.contacts-main .col-6:last-child h3{
-  text-align: right;
-}
-
-footer{
-  background: #333333;
-  height: 70px;
-}
-
-footer p{
+.benefits_element i{
   color: #ffffff;
-  line-height: 70px;
-  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+.benefits_element p {
+    color: #30a8fe;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.benefits_element .benefits_number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.benefits_title {
+    font-size: 1.125rem;
+}
+
+.benefits_number {opacity: 0;}
+
+
+@media (max-width: 767px) {
+  .benefits_element{
+    border-right: none;
+  }
+}
+
+/*faq*/
+
+.faq{
+
+}
+
+.response{
+  width: 100%;
+  background-image: url("../images/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  height: 600px;
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 479px) {
-
-
-
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-indicators {
+    bottom: -58px;
+}
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, .5);
+}
+.carousel-indicators .active {
+    background-color: #000;
 }
 
-@media screen and (min-width: 480px) and (max-width: 639px) {
 
 
+.question{
+  height: 100px;
 }
 
-@media screen and (min-width: 640px) and (max-width: 860px) {
 
+/*footer*/
 
-
+.footer{
+  background: #cdcdcd;
+  color: #666666;
 }
 
-@media screen and (min-width: 860px) and (max-width: 1023px) {
 
-
-
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1300px){
-
-
-
-}
-
-/* Большой дисплей*/
-@media (min-width: 1268px) {
-
+.social a{
+  font-size: 2em;
+  color: #666666;
+  margin: 0 0.3rem;
 }
