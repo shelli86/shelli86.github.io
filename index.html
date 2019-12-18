@@ -19,10 +19,15 @@
 
 
   <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
+    <div class="container mx-2">
 
     <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#">
+        <span class="navbar-toggler-icon my-toggler"><i class="fas fa-phone-alt"></i></i></span>
+    </button>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon my-toggler"><i class="fas fa-bars"></i></span>
     </button>
 
@@ -54,61 +59,39 @@
   </div>
 </header>
 
-<div class="working-hours">
-  <div class="container">
+
+
+<div class="welcome">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 sign">
-        <i class="fas fa-id-card"></i>
-        <h2>Записатися на прийом</h2>
-          <div class="textwidget contacts-addres">
-            <ul class="list-unstyled">
-              <li>dr@shkiryak.com.ua</li>
-              <li>‎<a href="tel:‎+38 097 103 1 103">‎+38 (097) 103 1 103</a></li>
-              <li>‎<a href="tel:‎+38 093 103 1 103">‎+38 (093) 103 1 103</a></li>
-              <li>‎<a href="tel:‎‎‎‎+38 099 103 1 103">+38 (099) 103 1 103</a></li>
-            </ul>
-            <button type="button" class="btn btn-dark btn-lg">Записатися</button>
-          </div>
-      </div>
-      <div class="col-md-4 neurosurgery">
-        <i class="fas fa-id-card"></i>
-        <h2>Нейрохірургія</h2>
-        <p>Мікрохірургічні втручання на головному та спинному мозку під нейромоніторингом з швидкою реабілітацією пацієнта.</p>
-      </div>
-      <div class="col-md-4 oncology">
-        <i class="fas fa-id-card"></i>
-        <h2>Онкологія</h2>
-        <p>Встановлення тактики лікування при будь-яких пухлинних паталогіях, оптимізовано під пацієнта. </p>
+      <div class="text-welcome text-left mx-4">
+          <h2><span>Шкіряк</span> Антон Антонович</h2>
+          <p>лікар-нейрохірург, онколог, менеджер та громадський діяч в сфері охорони здоров'я України, експерт медичних та соціальних програм на центральних телеканалах України. <a href="#">Детальніше</a> </p>
+          <button class="btn btn-primary btn-lg">Записатися на прийом</button>
       </div>
     </div>
   </div>
 </div>
 
-  <div class="welcome">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 photo-welcome px-0">
-          <div class="overlay"></div>
-        </div>
-        <div class="col-md-8 text-welcome text-left">
-            <h2><span>Шкіряк</span> Антон Антонович</h2>
-            <p>лікар-нейрохірург, онколог, менеджер та громадський діяч в сфері охорони здоров'я України, асистент опорної кафедри нейрохірургії Національної медичної академії післядипломної освіти ім. П.Л. Шупика, експерт багатьох медичних та соціальних програм на центральних телеканалах країни.</p>
-            <button class="btn btn-primary btn-lg mr-4">Детальніше</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-<div class="data">
-  <div class="container">
-    <div class="send-data row">
-      <div class="col-md-6">
-        <form action="#" target="">
-          <button class="btn btn-primary btn-lg"><i class="fas fa-medkit mr-4"></i>Надіслати дані</button>
-        </form>
+<div class="working">
+  <div class="container-fluid">
+    <h2 class="mx-2">Напрямки роботи</h2>
+    <div class="row">
+      <div class="col-md-4 neurosurgery px-4 py-5">
+        <h3 class="">Нейрохірургія</h3>
+        <p class="">діагностика, мікрохірургічнe, медикаментозне, променеве або комбіноване лікування пухлинних новоутворень головного та спинного мозку, дегенеративних захворювань хребта та судинних патологій головного мозку</p>
+        <button type="button" class="btn btn-lg">Детальніше</button>
       </div>
-      <div class="col-md-6">
-        <p>Надішліть результати обстежень (знімки МРТ або КТ, висновки, анамнез) для отримання заочної думки лікаря.</p>
+      <div class="col-md-4 oncology px-4 py-5">
+        <h3 class="">Онкологія</h3>
+        <p class="">діагностика, назначення необхідних видів обстежень, встановлення тактики лікування при будь-яких онкологічних захворюваннях. Визначення індивідуальної схеми хіміотерапії об'єму променевого лікування та підтримуючої терапії.</p>
+        <button type="button" class="btn btn-lg">Детальніше</button>
+      </div>
+      <div class="col-md-4 sign px-4 py-5">
+        <h3 class="">Онлайн консультація</h3>
+        <p class="">надішліть ваші медичні дані (заключення, знімки МРТ, КТ, виписки, анамнез або аналізи) та отримайте заочну думку лікаря</p>
+        <button type="button" class="btn btn-lg">Надіслати</button>
       </div>
     </div>
   </div>
@@ -116,33 +99,103 @@
 
 
 <div class="statistics">
-  <div class="container px-0">
+  <div class="container-fluid">
     <div class="benefits">
-      <div class="benefits_inner">
-        <div class="ml-4">
-          <h1 class="benefits_header">
-              Важлива <span>Cтатистика</span>
-          </h1>
-          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone</p>
-        </div>
+      <div class="benefits_inner px-4 py-4">
           <div class="row">
-            <div class="benefits_element col-md-4 text-center">
-                <i class="fas fa-briefcase"></i>
-                <p class="benefits_number">10000</p>
-                <p class="benefits_title">сотрудников по всему миру</p>
+            <div class="benefits_element col-md-3 text-center">
+                <p class="benefits_number">4150</p>
+                <p class="benefits_title">годин в операційній</p>
             </div>
-            <div class="benefits_element col-md-4 text-center">
-                <i class="fas fa-briefcase"></i>
-                <p class="benefits_number">500</p>
-                <p class="benefits_title">успешных проектов в год</p>
+            <div class="benefits_element col-md-3 text-center">
+                <p class="benefits_number">2600</p>
+                <p class="benefits_title">пацієнтів у 2019 році</p>
             </div>
-            <div class="benefits_element col-md-4 text-center">
-                <i class="fas fa-briefcase"></i>
-                <p class="benefits_number">15</p>
-                <p class="benefits_title">лет в сфере разработки</p>
+            <div class="benefits_element col-md-3 text-center">
+                <p class="benefits_number">100</p>
+                <p class="benefits_title">% відповідальності</p>
+            </div>
+            <div class="benefits_element col-md-3 text-center">
+                <p class="benefits_number">13</p>
+                <p class="benefits_title">років досвіду</p>
             </div>
           </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="response">
+  <div class="container-fluid">
+    <h2 class="mx-2 pt-5">Пацієнти кажуть</h2>
+    <div class="row py-4">
+
+        <div id="carouselReviews" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+             <div class="row">
+                <div class="offset-md-1 col-md-9 col-sm-9">
+                  <div class="review mx-5 text-center">
+                    Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                    <div class="review-author">Марія, Україна</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+             <div class="row">
+                <div class="offset-md-1 col-md-9 col-sm-9">
+                  <div class="review mx-5 text-center">
+                    Через три місяці після лікування, обстеження показали що пухлина зменшується. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                    <div class="review-author">Марія, Україна</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+             <div class="row">
+                <div class="offset-md-1 col-md-9 col-sm-9">
+                  <div class="review mx-5 text-center">
+                    Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                    <div class="review-author">Марія, Україна</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselReviews" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="mx-2">
+    <button type="button" class="btn btn-lg">Дивитися усі відгуки</button>
+  </div>
+</div>
+
+
+<div class="data">
+  <div class="container-fluid">
+    <div class="send-data row">
+      <div class="col-md-6">
+        <p>Бронюйте прямо зараз час на очну консультацію до Антона Антоновича і отримайте вичерпні відповіді на запитання щодо вашої проблеми, висновки з рекомендаціями або план вашого лікування.</p>
+      </div>
+    </div>
+    <div class="">
+        <button class="btn btn-primary btn-lg">Записатися на прийом</button>
     </div>
   </div>
 </div>
@@ -158,76 +211,9 @@
 </div>
 
 
-<div class="faq">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 response">
-
-
-        <div id="carouselReviews" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-             <div class="row">
-               <div class="offset-md-1 col-md-9 col-sm-9">
-                <div class="review">
-                 Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
-                <div class="review-author">Марія, Україна</div>
-                </div>
-              </div>
-            </div>
-         </div>
-         <div class="carousel-item">
-           <div class="row">
-              <div class="offset-sm-2 col-sm-3 col-md-2">
-                <img src="images/igor.jpg" class="img-fluid rounded-circle d-block m-auto pb-3"
-        alt="Игорь Минаев"></div>
-              <div class="offset-md-1 col-md-5 col-sm-5">
-               <div class="review">
-                Отличный уровень сервиса. Доставили посылку за пару дней.
-                А цены очень приемлемые за подобную доставку.
-                <div class="review-author">Игорь Минаев</div>
-               </div>
-              </div>
-           </div>
-         </div>
-         <div class="carousel-item">
-          <div class="row">
-            <div class="offset-sm-2 col-sm-3 col-md-2">
-             <img src="images/mila.jpg" class="img-fluid rounded-circle d-block m-auto pb-3"
-        alt="Мила Синицина"></div>
-              <div class="offset-md-1 col-md-5 col-sm-5">
-                <div class="review">
-                 Очень понравился товар. Посылка пришла быстро. Заказывыла подруге в подарок. Теперь хочу для себя.
-                <div class="review-author">
-                  Мила Синицина
-                </div>
-              </div>
-             </div>
-            </div>
-          </div>
-         </div>
-         <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselReviews" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
-        </div>
 
 
 
-      </div>
-
-
-
-      <div class="col-md-8 question">
-
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <footer id="footer" class="footer navbar-fixed-bottom py-4">
