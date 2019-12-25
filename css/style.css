@@ -46,10 +46,9 @@ body {
 
 /*menu*/
 
+
   .navbar{
     background:#ffffff;
-    height: 76px;
-    overflow: hidden;
   }
 
   .nav-link,
@@ -500,6 +499,90 @@ body {
 	width: 100%;
 	height: 1px;
 	background-color: #e3e3e3;
+}
+
+
+/*accordion*/
+
+.accordion-container{
+	background-color: #a5a5a5;
+}
+
+.accordion-container h2{
+	font-size: 1.6em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Proxima Nova Th';
+	font-weight: 800;
+	font-style: normal;
+	text-align: center;
+	letter-spacing: 0.04em;
+	margin-bottom: 30px;
+	padding-top: 1em;
+}
+
+.accordion-container{
+	position: relative;
+	height: auto;
+}
+
+
+.set{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.set > a{
+	display: block;
+	padding: 10px 0px;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	font-family: 'Proxima Nova Lt';
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1em;
+}
+
+.set i{
+	position:relative;
+	color: #fff;
+	padding: 15px;
+	font-size: 0.5em;
+	margin-right: 20px;
+}
+
+.set a.active{
+	color: #fff;
+}
+.set a.active i{
+	color: #fff;
+}
+
+.fa-plus{
+	background-color: #7f7f7f;
+}
+
+.set a .fa-minus{
+	background-color: none;
+	border: 1px solid #7f7f7f;
+}
+
+.content{
+	position:relative;
+	width: 100%;
+	height: auto;
+	display:none;
+}
+
+.content p{
+	padding: 10px 15px 10px 60px;
+	margin: 0;
+	color: #ffffff;
+	font-size: 0.8em;
 }
 
 /*footer*/
