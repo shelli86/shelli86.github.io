@@ -307,7 +307,7 @@ body {
 .response{
   width: 100%;
   background-color:#f8f8f8;
-  height: 600px;
+
 }
 
 .response h2{
@@ -419,6 +419,36 @@ body {
 }
 
 
+/* Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+
+ }
+
+/*  Малые девайсы («ландшафтные», >= 575px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+ }
+
+/*  Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+
+	.response{
+		max-width: 50%;
+		float: left;
+	}
+
+	.data{
+		max-width: 50%;
+		float: left;
+	}
+
+}
+
+
+
+
 .news{
 	padding-top: 35px;
 	padding-bottom: 35px;
@@ -434,8 +464,12 @@ body {
 	font-weight: 800;
 	font-style: normal;
 	text-align: center;
-	letter-spacing: normal;
+	letter-spacing: 0.04em;
 	margin-bottom: 30px;
+}
+
+.news a{
+	display: block;
 }
 
 .news-more{
@@ -454,7 +488,7 @@ body {
 	position: relative;
 	overflow:hidden;
 	width:100%;
-	height:150px;
+	height:250px;
 }
 
 .news-img img{
@@ -466,7 +500,7 @@ body {
 		-ms-transform:translate(-50%,-50%);
 				transform:translate(-50%,-50%);
 	width:100%;
-	height:150px;
+	height:250px;
 	-o-object-fit:cover;
 	 object-fit:cover;
 }
@@ -502,10 +536,92 @@ body {
 }
 
 
+/* Экстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+	.news .row .col-lg-4:last-child{
+		display: none;
+	}
+
+	.second-news{
+		display: none;
+	}
+
+	.first-news{
+		padding-right: 0;
+		padding-left:  0;
+	}
+
+ }
+
+/*  Малые девайсы («ландшафтные», >= 575px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.last-news{
+		display: none;
+	}
+
+	.second-news{
+		display: none;
+	}
+
+	.first-news{
+		padding-right: 0;
+		padding-left:  0;
+	}
+
+	.first-news .news-img{
+		height: 350px
+	}
+
+	.first-news .news-img img{
+		height: 350px
+	}
+
+ }
+
+/*  Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.last-news{
+		display: none;
+	}
+	.second-news{
+		padding-right: 0;
+	}
+	.first-news{
+		padding-left:  0;
+	}
+}
+
+/*  Большие девайсы (большие десктопы, >= 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.first-news{
+		padding-left:  0;
+	}
+
+	.last-news{
+		padding-right: 0;
+	}
+
+ }
+
+/*  Большие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) {
+	.first-news{
+		padding-left:  0;
+	}
+
+	.last-news{
+		padding-right: 0;
+	}
+}
+
+
 /*accordion*/
 
 .accordion-container{
 	background-color: #a5a5a5;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .accordion-container h2{
