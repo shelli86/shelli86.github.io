@@ -62,7 +62,7 @@ body {
   }
 
   .navbar-nav .nav-link:hover{
-    color: #1080d0;
+    color: #ff1000;
   }
 
   .navbar-nav{
@@ -70,7 +70,7 @@ body {
   }
 
   .navbar-nav .active a{
-    color: #1080d0;
+    color: #ff1000;
   }
 
   .navbar-collapse{
@@ -87,15 +87,47 @@ body {
     font-size: 1rem;
     border: 1.5px solid #cdcdcd;
     padding: 0;
+		margin-left: 20px !important;
   }
 
   .navbar-brand{
-    margin-right: 0.8rem;
+    margin-right: 0rem;
   }
 
   .navbar-brand img{
     width: 170px;
   }
+
+
+	.lang{
+		text-align: right;
+		text-decoration: none;
+		list-style: none;
+		margin-bottom: 0;
+	}
+
+	.lang a{
+		display: block;
+		line-height: 78px;
+		text-transform: uppercase;
+		font-size: 0.9rem;
+		color: #999999;
+	}
+
+	.lang-mob{
+		text-align: right;
+		text-decoration: none;
+		list-style: none;
+		margin-bottom: 0;
+	}
+
+	.lang-mob a{
+		display: block;
+		text-transform: uppercase;
+		font-size: 0.9rem;
+		color: #999999;
+	}
+
 
 /*header*/
 
@@ -116,7 +148,40 @@ body {
   .banner img{
     height: 320px;
   }
+
+	.lang{
+		display: none;
+	}
+
+	.navbar .container{
+		width: 100%;
+		max-width: 2000px;
+	}
+
 }
+
+@media (min-width: 991.98px) {
+	.navbar .container{
+		width: 100%;
+		max-width: 2000px;
+	}
+
+	.navbar{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.lang-mob{
+		display: none;
+	}
+
+	.nav-ad{
+		display: none;
+	}
+
+}
+
+
 
 
 /*welcome*/
@@ -301,6 +366,8 @@ body {
 }
 
 
+
+
 /*faq*/
 
 
@@ -372,18 +439,20 @@ body {
 	font-style: normal;
 }
 
+.carousel {
+  min-height: 300px;
+}
 
 
 /*data*/
 
 .data{
-  padding-top: 30px;
   padding-bottom: 30px;
 	background-color:#f8f8f8;
+	overflow: hidden;
 }
 
 .send-data{
-	width: 100%;
 	background-image: url("../images/bg_zakaz.jpg");
 	background-size: cover;
 	background-position: center;
@@ -403,6 +472,7 @@ body {
 
 .btn-data{
 	margin-top: 30px;
+	width: 100%;
 }
 
 .data .btn{
@@ -415,7 +485,7 @@ body {
   font-family: 'Proxima Nova Th';
   font-weight: 800;
   font-style: normal;
-  height: 45px;
+  height: 40px;
 }
 
 
@@ -431,8 +501,36 @@ body {
 
  }
 
+@media (min-width: 767.98px) and (max-width: 1000px){
+	.response{
+		max-width: 50%;
+		float: left;
+	}
+
+	.data{
+		max-width: 50%;
+		float: left;
+	}
+
+	.carousel {
+		height: 200px;
+		min-height: 200px;
+	}
+
+	.response .btn{
+		width: 70%;
+	}
+
+	.data .btn{
+		width: 70%;
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+
+}
+
 /*  Средние девайсы («таблетки», >= 768px)*/
-@media (min-width: 768px) {
+@media (min-width: 1001px) {
 
 	.response{
 		max-width: 50%;
@@ -442,6 +540,21 @@ body {
 	.data{
 		max-width: 50%;
 		float: left;
+	}
+
+	.carousel {
+	  height: 150px;
+		min-height: 150px;
+	}
+
+	.response .btn{
+		width: 50%;
+	}
+
+	.data .btn{
+		width: 50%;
+		margin-top: 47px;
+		margin-bottom: 20px;
 	}
 
 }
