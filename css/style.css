@@ -237,6 +237,31 @@ body {
 }
 
 
+@media (min-width: 991.98px) {
+	.bio{
+		width: 100%;
+		float: left;
+	}
+	.btn-bio{
+		width: 100%;
+		float: left;
+	}
+	.btn-bio .btn{
+		width: 30%;
+		margin: 0 auto;
+	}
+
+}
+
+@media (max-width: 991.97px){
+	.welcome{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+
+
 /*working-hours*/
 
 .working{
@@ -303,6 +328,22 @@ body {
 }
 
 
+@media (min-width: 768px) and (max-width: 991.97px) {
+	.neurosurgery>div,
+	.oncology>div,
+	.sign>div{
+		height: 300px;
+	}
+}
+
+@media (min-width: 991.98px) {
+	.neurosurgery>div,
+	.oncology>div,
+	.sign>div{
+		height: 230px;
+	}
+}
+
 /*statistics*/
 
 
@@ -310,7 +351,7 @@ body {
     width: 100%;
     background-image: url("../images/counter-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 30%;
     overflow: hidden;
 }
 
@@ -365,6 +406,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+	.statistics {
+	   padding-top: 50px;
+		 padding-bottom: 50px;
+	}
+}
 
 
 
@@ -495,13 +542,30 @@ body {
 
  }
 
-/*  Малые девайсы («ландшафтные», >= 575px)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
+	.carousel {
+	  min-height: auto;
+	}
+
+	.response .btn{
+		margin-bottom: 30px;
+	}
 
  }
 
-@media (min-width: 767.98px) and (max-width: 1000px){
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container-carusel,
+	.container-data{
+		height: 350px !important;
+	}
+}
+
+@media (min-width: 767.98px){
+	.container-carusel,
+	.container-data{
+		height: 300px;
+	}
 	.response{
 		max-width: 50%;
 		float: left;
@@ -512,54 +576,39 @@ body {
 		float: left;
 	}
 
-	.carousel {
-		height: 200px;
-		min-height: 200px;
-	}
-
 	.response .btn{
 		width: 70%;
 	}
 
 	.data .btn{
 		width: 70%;
-		margin-top: 70px;
-		margin-bottom: 20px;
+		margin: 0;
+	}
+
+	.btn-data{
+		margin-top: 0px !important;
+		padding-top: 0px !important;
+	}
+
+	.send-data p{
+		padding-top: 100px;
+		margin-bottom: 0px;
+		margin-top: 0 !important;
+	}
+
+	.container-data{
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.send-data{
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 	}
 
 }
-
-/*  Средние девайсы («таблетки», >= 768px)*/
-@media (min-width: 1001px) {
-
-	.response{
-		max-width: 50%;
-		float: left;
-	}
-
-	.data{
-		max-width: 50%;
-		float: left;
-	}
-
-	.carousel {
-	  height: 150px;
-		min-height: 150px;
-	}
-
-	.response .btn{
-		width: 50%;
-	}
-
-	.data .btn{
-		width: 50%;
-		margin-top: 47px;
-		margin-bottom: 20px;
-	}
-
-}
-
-
 
 
 .news{

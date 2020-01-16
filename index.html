@@ -73,13 +73,17 @@
 </header>
 
 
-<div class="welcome">
+<div class="welcome px-3">
   <div class="container-fluid">
     <div class="row">
       <div class="text-welcome text-left mx-4">
+        <div class="bio">
           <h2><span>Шкіряк</span> Антон Антонович</h2>
           <p>лікар-нейрохірург, онколог, менеджер та громадський діяч в сфері охорони здоров'я України, експерт медичних та соціальних програм на центральних телеканалах України. <a href="#">Детальніше</a> </p>
+        </div>
+        <div class="btn-bio text-right">
           <button class="btn btn-primary btn-lg">Записатися на прийом</button>
+        </div>
       </div>
     </div>
   </div>
@@ -91,19 +95,25 @@
     <h2 class="mx-2">Напрямки роботи</h2>
     <div class="row">
       <div class="col-md-4 neurosurgery px-4 py-5">
-        <h3 class="">Нейрохірургія</h3>
-        <p class="">діагностика, мікрохірургічнe, медикаментозне, променеве або комбіноване лікування пухлинних новоутворень головного та спинного мозку, дегенеративних захворювань хребта та судинних патологій головного мозку</p>
-        <button type="button" class="btn btn-lg">Детальніше</button>
+        <div class="">
+          <h3 class="">Нейрохірургія</h3>
+          <p class="">діагностика, мікрохірургічнe, медикаментозне, променеве або комбіноване лікування пухлинних новоутворень головного та спинного мозку, дегенеративних захворювань хребта та судинних патологій головного мозку</p>
+        </div>
+          <button type="button" class="btn btn-lg">Детальніше</button>
       </div>
       <div class="col-md-4 oncology px-4 py-5">
-        <h3 class="">Онкологія</h3>
-        <p class="">діагностика, назначення необхідних видів обстежень, встановлення тактики лікування при будь-яких онкологічних захворюваннях. Визначення індивідуальної схеми хіміотерапії об'єму променевого лікування та підтримуючої терапії.</p>
+        <div class="">
+          <h3 class="">Онкологія</h3>
+          <p class="">діагностика, назначення необхідних видів обстежень, встановлення тактики лікування при будь-яких онкологічних захворюваннях. Визначення індивідуальної схеми хіміотерапії об'єму променевого лікування та підтримуючої терапії.</p>
+        </div>
         <button type="button" class="btn btn-lg">Детальніше</button>
       </div>
       <div class="col-md-4 sign px-4 py-5">
-        <h3 class="">Онлайн консультація</h3>
-        <p class="">надішліть ваші медичні дані (заключення, знімки МРТ, КТ, виписки, анамнез або аналізи) та отримайте заочну думку лікаря</p>
-        <button type="button" class="btn btn-lg">Надіслати</button>
+        <div class="">
+          <h3 class="">Онлайн консультація</h3>
+          <p class="">надішліть ваші медичні дані (заключення, знімки МРТ, КТ, виписки, анамнез або аналізи) та отримайте заочну думку лікаря</p>
+        </div>
+          <button type="button" class="btn btn-lg">Надіслати</button>
       </div>
     </div>
   </div>
@@ -140,58 +150,60 @@
 
 <div class="response">
   <div class="container-fluid">
-    <h2 class="mx-2 pt-5">Пацієнти кажуть</h2>
-    <div class="row py-4">
+    <div class="container-carusel">
+      <h2 class="mx-2 pt-5">Пацієнти кажуть</h2>
+      <div class="row py-4">
 
-        <div id="carouselReviews" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
+          <div id="carouselReviews" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
 
-            <div class="carousel-item active">
-             <div class="row">
-                <div class="">
-                  <div class="review mx-5 px-4 text-center">
-                    Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
-                    <div class="review-author">Марія, Україна</div>
+              <div class="carousel-item active">
+               <div class="row">
+                  <div class="">
+                    <div class="review mx-5 px-4 text-center">
+                      Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                      <div class="review-author">Марія, Україна</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="carousel-item">
-             <div class="row">
-                <div class="">
-                  <div class="review mx-5 px-4 text-center">
-                    Через три місяці після лікування, обстеження показали що пухлина зменшується. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
-                    <div class="review-author">Марія, Україна</div>
+              <div class="carousel-item">
+               <div class="row">
+                  <div class="">
+                    <div class="review mx-5 px-4 text-center">
+                      Через три місяці після лікування, обстеження показали що пухлина зменшується. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                      <div class="review-author">Марія, Україна</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="carousel-item">
-             <div class="row">
-                <div class="">
-                  <div class="review mx-5 px-4 text-center">
-                    Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
-                    <div class="review-author">Марія, Україна</div>
+              <div class="carousel-item">
+               <div class="row">
+                  <div class="">
+                    <div class="review mx-5 px-4 text-center">
+                      Через три місяці після лікування, обстеження показали що пухлина зменшується. А ще через три місяці, знову поступові позитивні результати контрольного обстеження. Щира подяка співробітникам Клініки Спіженко на чолі з Наталією Юріївною Спіженко та головним лікарем Антоном Антоновичем Шкіряком!
+                      <div class="review-author">Марія, Україна</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-         <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselReviews" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
-        </div>
+           <a class="carousel-control-prev" href="#carouselReviews" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+           </a>
+           <a class="carousel-control-next" href="#carouselReviews" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+      </div>
 
     </div>
-
-  </div>
+    </div>
 
   <div class="mx-2 text-center">
     <button type="button" class="btn btn-lg">Дивитися усі відгуки</button>
@@ -203,7 +215,7 @@
 <div class="data">
   <div class="container-fluid p-0 m-0">
     <div class="send-data row p-2">
-      <div class="m-4 p-2 text-center">
+      <div class="m-4 p-2 text-center container-data">
         <p>Бронюйте прямо зараз час на очну консультацію до Антона Антоновича і отримайте вичерпні відповіді на запитання щодо вашої проблеми, висновки з рекомендаціями або план вашого лікування.</p>
       </div>
       <div class="btn-data m-4 p-2 text-center">
