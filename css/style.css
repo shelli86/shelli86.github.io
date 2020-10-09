@@ -197,6 +197,17 @@ body{
   margin-right: 70px;
 }
 
+.bio-title p{
+  font-size: 16px;
+  color: #FF0000;
+}
+
+.bio-title h2{
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
 .bio-img img{
   width: 100%;
 }
@@ -212,14 +223,15 @@ body{
   padding: 30px;
   position: absolute;
   width: 85%;
-  bottom: 5%;
-  right: 0;
+  bottom: 0;
+  right: 2%;
   font-size: 16px;
+  box-shadow: 0px 20px 40px #E8E8EC;
 }
 
  .bio-cart .btn-main{
-   font-size: 16px;
-   width: 200px;
+   font-size: 20px;
+   width: 250px;
  }
 
 .bio-cart .btn span svg{
@@ -227,31 +239,61 @@ body{
    margin-left: 15px;
  }
 
-  .activity{
+.activity{
     background: #ffffff;
     padding: 30px;
     margin-bottom: 20px;
+}
+
+.bio .activity:last-child{
+    margin-bottom: 0px;
   }
 
  .activity-img img{
    width: 100%;
  }
 
+.activity-cart h3{
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.activity-cart p{
+  font-size: 16px;
+  color: #333333;
+}
+
+.activity-cart .btn-main{
+  background-color: #ffffff;
+  color: #FF0000;
+  padding: 0;
+  margin: 0;
+}
+
+.btn span svg{
+  width: 20px;
+}
+
+.activity-cart .btn-main .cls-1{
+  fill: #FF0000 !important;
+}
+
+
  .consult{
    background-image: url('../img/bg-consult.png');
    background-size: cover;
    background-position: center;
    position: relative;
-   height: 500px;
  }
 
  .reviews{
-   height: 300px;
    background-color: #F4F4F4;
  }
 
  .blog{
-   height: 700px;
    background-image: url('../img/bg-big.png');
    background-size: cover;
    background-position: center;
@@ -259,7 +301,6 @@ body{
  }
 
  .faq{
-   height: 500px;
    background-image: url('../img/bg-footer.png');
    background-size: cover;
    background-position: center;
@@ -268,10 +309,8 @@ body{
 
  .footer-contacts{
    background-color: #3D4348;
-   height: 200px;
  }
 
  .footer-copyright{
    background-color: #313538;
-   height: 100px;
  }
