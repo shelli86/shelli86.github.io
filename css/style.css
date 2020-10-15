@@ -35,6 +35,7 @@ body{
   font-family: 'Proxima Nova Rg';
   font-weight: normal;
   font-style: normal;
+  color: #333333;
 }
 
 .navbar{
@@ -314,20 +315,45 @@ body{
   font-weight: normal;
 }
 
-.result{
-
-}
-
 .result .stat-form-descr{
-  font-size: 42px;
+  font-size: 38px;
   color: #ffffff;
   line-height: normal;
   height: 100%;
 }
 
-.stat-form{
-  height: 300px;
+.stat-form .stat-form-container{
+  background: #ffffff;
+  padding: 50px;
+  color: #333333;
+  margin: 100px 50px;
+  font-size: 16px;
+  text-align: center;
+  -webkit-border-top-left-radius: 60px;
+  -webkit-border-bottom-right-radius: 60px;
+  -moz-border-radius-topleft: 60px;
+  -moz-border-radius-bottomright: 60px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
+
+.stat-form .stat-form-container img{
+  width: 90px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.stat-form-container .btn-main{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stat-form-descr{
+  padding-left: 50px;
+}
+
+
 
 
 
@@ -342,7 +368,53 @@ body{
    background-size: cover;
    background-position: center;
    position: relative;
+   padding-top: 50px;
+   padding-bottom: 50px;
  }
+
+.blog .blog-descr .blog-title{
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+.blog .blog-descr .blog-text{
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+.blog .blog-descr .blog-list{
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 45px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.blog .blog-descr .blog-list li {
+  list-style-type: none; /* Прячем исходные маркеры */
+}
+
+.blog .blog-descr .blog-list li::before {
+  color: red; /* Цвет маркера */
+  content: "●"; /* Сам маркер */
+  padding-right: 20px; /* Расстояние от маркера до текста */
+}
+
+.blog .blog-descr .blog-btn{
+  text-align: center;
+}
+
+.blog .blog-img img{
+   width: 100%;
+}
+
+
 
  .faq{
    background-image: url('../img/bg-footer.png');
