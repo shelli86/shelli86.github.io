@@ -401,7 +401,7 @@ body{
 }
 
 .blog .blog-descr .blog-list li::before {
-  color: red; /* Цвет маркера */
+  color: #FF0000; /* Цвет маркера */
   content: "●"; /* Сам маркер */
   padding-right: 20px; /* Расстояние от маркера до текста */
 }
@@ -414,7 +414,113 @@ body{
    width: 100%;
 }
 
+.news .news-title{
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 32px;
+  margin-top: 50px;
+}
 
+.news .top-news img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.news .top-news-name{
+  font-size: 36px;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.news .top-news-date{
+  color: #3D4348;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.news .top-news-annotation{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  text-align: left;
+}
+
+.news .top-news-more{
+  color: #FF0000;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.news .top-news-more span svg{
+  width: 20px;
+}
+
+.news .top-news-more .cls-1{
+  fill: #FF0000 !important;
+}
+
+.news .top-news-more:hover{
+    text-decoration: none;
+  }
+
+.list-news-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-news{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.list-news .row{
+  margin-bottom: 40px;
+}
+
+.list-news .list-news-title{
+  color: #171717;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.list-news .list-news-date{
+  color: #3D4348;
+  line-height: normal;
+}
+
+.list-news .list-news-annotation{
+  line-height: normal;
+}
+
+.news .list-news-more{
+  color: #FF0000;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.news .list-news-more span svg{
+  width: 16px;
+}
+
+.news .list-news-more .cls-1{
+  fill: #FF0000 !important;
+}
+
+.news .list-news-more:hover{
+    text-decoration: none;
+  }
 
  .faq{
    background-image: url('../img/bg-footer.png');
