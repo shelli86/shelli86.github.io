@@ -527,7 +527,88 @@ body{
    background-size: cover;
    background-position: center;
    position: relative;
+   margin-top: 108px;
+   -webkit-border-top-left-radius: 60px;
+   -moz-border-radius-topleft: 60px;
+   border-top-left-radius: 60px;
  }
+
+  .faq .faq-title{
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 48px;
+  }
+
+  .accordion-container{
+  	background-color: #ffffff;
+    -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   padding: 32px;
+  }
+
+  .accordion-container{
+  	position: relative;
+  	height: auto;
+  }
+
+
+  .set{
+  	position: relative;
+  	width: 100%;
+  	height: auto;
+  }
+
+  .set > a{
+  	display: block;
+  	padding: 10px 0px;
+  	text-decoration: none;
+  	color: #333333;
+  	-webkit-transition:all 0.2s linear;
+  	-moz-transition:all 0.2s linear;
+  	transition:all 0.2s linear;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-size: 24px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid  rgba(179, 179, 179, 0.5);
+  }
+
+  .set i{
+  	position: absolute;
+    right: 0;
+  	color: #333333;
+  	padding: 15px;
+  	font-size: 20px;
+  }
+
+  .set a.active{
+  	color: #333333;
+  }
+  .set a.active i{
+  	color: #333333;
+  }
+
+  .content{
+  	position:relative;
+  	width: 100%;
+  	height: auto;
+  	display:none;
+  }
+
+  .content p{
+  	padding: 10px 0 10px 0;
+  	margin: 0;
+  	color: #333333;
+  	font-size: 16px;
+  }
+
+
+
 
  .footer-contacts{
    background-color: #3D4348;
