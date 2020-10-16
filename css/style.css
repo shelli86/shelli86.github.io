@@ -610,8 +610,39 @@ body{
 
  .footer-contacts{
    background-color: #3D4348;
+   color: #ffffff;
+   font-size: 16px;
  }
+
+ .footer-contacts td svg{
+   margin-right: 16px;
+ }
+
+  .footer-contacts .soc-icons{
+    text-align: right;
+    margin-top: 40px;
+  }
+
+  .footer-contacts .soc-icons a{
+    color: #ffffff;
+    font-size: 32px;
+    margin-right: 24px;
+  }
+
+    .footer-contacts .soc-icons a:last-child{
+      margin-right: 0;
+    }
 
  .footer-copyright{
    background-color: #313538;
+   color: #ffffff;
+   font-size: 16px;
+   text-align: center;
+   padding-top: 17px;
+   padding-bottom: 17px;
  }
+
+  .footer-copyright p{
+    margin: 0;
+    padding: 0;
+  }
