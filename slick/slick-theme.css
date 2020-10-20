@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('ajax-loader.gif') center center no-repeat;
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('fonts/slick.eot');
-    src: url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
@@ -21,9 +21,12 @@
 {
     font-size: 0;
     line-height: 0;
+
     position: absolute;
-    top: 50%;
+    bottom: 5%;
+
     display: block;
+
     width: 20px;
     height: 20px;
     padding: 0;
@@ -37,8 +40,8 @@
     border: none;
     outline: none;
     background: transparent;
-    z-index: 100;
 }
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -64,50 +67,56 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
-    font-size: 30px;
-    line-height: 1;
 
-    opacity: .75;
-    color: white;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: bold;
+    opacity: 1;
+    color: #adb3b4;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-prev:hover:before,
+.slick-next:hover:before{
+  color: #FF0000 !important;
+}
+
 .slick-prev
 {
-    left: 25px;
+    left: -95px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -95px;
     left: auto;
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '⟵';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '⟶';
 }
 
 .slick-next
 {
-    right: 25px;
+    left: -55px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -55px;
 }
 .slick-next:before
 {
-    content: '→';
+    content: '⟶';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '⟵';
 }
 
 /* Dots */
@@ -174,7 +183,7 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
+
     font-size: 6px;
     line-height: 20px;
 
