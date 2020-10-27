@@ -173,21 +173,29 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <p>4150</p>
-          <p class="small">годин в операційній</p>
+        <div class="col-6 col-lg-3">
+          <div class="stat-container">
+            <p>4150</p>
+            <p class="small">годин в операційній</p>
+          </div>
         </div>
-        <div class="col-3">
-          <p>2600</p>
-          <p class="small">пацієнтів у 2019 році</p>
+        <div class="col-6 col-lg-3">
+          <div class="stat-container">
+            <p>2600</p>
+            <p class="small">пацієнтів у 2019 році</p>
+          </div>
         </div>
-        <div class="col-3">
-          <p>100%</p>
-          <p class="small">відповідальності</p>
+        <div class="col-6 col-lg-3">
+          <div class="stat-container">
+            <p>100%</p>
+            <p class="small">відповідальності</p>
+          </div>
         </div>
-        <div class="col-3">
-          <p>13</p>
-          <p class="small">років досвіду</p>
+        <div class="col-6 col-lg-3">
+          <div class="stat-container">
+            <p>13</p>
+            <p class="small">років досвіду</p>
+          </div>
         </div>
       </div>
     </div>
@@ -197,16 +205,16 @@
   <div class="result">
     <div class="container p-5">
       <div class="row d-flex h-100">
-        <div class="col-5 stat-form-descr justify-content-center align-self-center">
+        <div class="col-md-12 col-lg-5 stat-form-descr justify-content-center align-self-center">
             <p>Надішліть результати обстеження для онлайн консультації</p>
         </div>
-        <div class="col-7 stat-form">
+        <div class="col-md-12 col-lg-7 stat-form">
           <div class="stat-form-container">
             <div class="stat-form-img">
               <img src="img/result-icons.png" alt="">
             </div>
             <p>Надішліть результати обстежень (знімки МРТ або КТ, висновки, результати аналізів, анамнез) для отримання онлайн консультації лікаря.</p>
-            <button class="btn btn-main">Записатися</button>
+            <button class="btn btn-main">Надіслати дані</button>
           </div>
         </div>
       </div>
@@ -221,7 +229,7 @@
     <div class="row">
 
 
-      <div class="col-3 pl-5">
+      <div class="col-md-12 col-lg-3 pl-lg-5">
         <h3>Відгуки</h3>
         <div class="d-flex h-100">
           <button class="btn btn-main btn-reviews justify-content-center align-self-center">Дивитися усі відгуки</button>
@@ -229,7 +237,7 @@
       </div>
 
 
-      <div class="col-9">
+      <div class="col-md-12 col-lg-9">
         <div class="reviews-slider">
           <div class="container pr-0 mr-0">
           <div class="slider">
@@ -281,6 +289,9 @@
             </div>
           </div>
         </div>
+
+        <button class="btn btn-main justify-content-center align-self-center btn-mobile">Дивитися усі відгуки</button>
+
       </div>
 
 
@@ -293,7 +304,7 @@
 <section class="blog">
   <div class="container p-5">
     <div class="row d-flex h-100">
-      <div class="col-4 blog-descr justify-content-center align-self-center">
+      <div class="col-md-12 col-lg-4 blog-descr justify-content-center align-self-center">
         <h3 class="blog-title">Запис на прийом</h3>
         <p class="blog-text">Запишіться прямо зараз на особисту консультацію та отримайте:</p>
         <ul class="blog-list">
@@ -303,10 +314,11 @@
           <li>перегляд знімків КТ та МРТ</li>
           <li>діагноз та ін.</li>
         </ul>
-        <button class="btn btn-main blog-btn">Записатися</button>
+        <button class="btn btn-main blog-btn">Записатися зараз</button>
       </div>
-      <div class="col-8 blog-img">
+      <div class="col-md-12 col-lg-8 blog-img">
         <img src="img/shkiriak_foto.png" alt="">
+        <button class="btn btn-main blog-btn-mobile">Записатися зараз</button>
       </div>
     </div>
   </div>
@@ -550,7 +562,7 @@ $('.center').slick({
     {
       breakpoint: 1200,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
@@ -559,8 +571,8 @@ $('.center').slick({
     {
       breakpoint: 768,
       settings: {
-        arrows: false,
-        centerMode: true,
+        arrows: true,
+        centerMode: false,
         centerPadding: '40px',
         slidesToShow: 1
       }
@@ -569,8 +581,8 @@ $('.center').slick({
 
       breakpoint: 480,
       settings: {
-        arrows: false,
-        centerMode: true,
+        arrows: true,
+        centerMode: false,
         centerPadding: '40px',
         slidesToShow: 1
       }
