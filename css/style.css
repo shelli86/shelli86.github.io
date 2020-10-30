@@ -776,6 +776,125 @@ form.search {
     padding: 0;
   }
 
+/*********neuro**************/
+
+.neuro-container{
+	margin-top: 60px;
+}
+
+.neuro-top{
+	width: 100%;
+	height: calc(100vh - 60px);
+	-webkit-border-top-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	border-top-left-radius: 50px;
+	position: relative;
+	overflow: hidden;
+}
+
+.neuro-top img{
+	max-width: 100%;
+}
+
+.neuro-img-background{
+	position: relative;
+}
+
+.neuro-description{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	max-width: 45%;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.neuro-description h1{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.neuro-description p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.neuro-about .activity-cart-title{
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: normal;
+}
+
+.neuro-about .activity{
+	background: none !important;
+	box-shadow: none !important;
+}
+
+.neuro-section{
+	background-image: url('../img/oncology-bg-top.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.neuro-section .neuro-stat-container{
+	height: 100%;
+	border-right: 1px solid #ffffff;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.neuro-section .neuro-stat .row>div:last-child .neuro-stat-container{
+	border-right: none;
+}
+
+.neuro-section .neuro-stat-container p{
+	font-size: 16px;
+	line-height: 20px;
+	font-size: normal;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.neuro-section .neuro-stat-container li{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 12px;
+}
+
+.neuro-block h2{
+	padding-top: 60px;
+	font-size: 36px;
+	line-height: 38px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.neuro-block p{
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+.neuro-block ol{
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+
+.red{
+	color: #FF0000;
+}
 
 /*********oncology**********/
 
@@ -858,6 +977,7 @@ form.search {
 	-moz-border-radius-bottomleft: 60px;
 	border-bottom-left-radius: 60px;
 	overflow: hidden;
+	margin-right: -0.95em;
 }
 
 .oncology-img img{
@@ -901,7 +1021,6 @@ form.search {
 .oncology-btn:hover{
 	color: #ffffff;
 }
-
 
 /*****contacts******/
 
@@ -1029,7 +1148,7 @@ form.search {
         bottom: 0;
         right: 0;
         left: 0;
-        top: -20%;
+        top: -16%;
         position: relative;
       }
 
@@ -1233,6 +1352,105 @@ form.search {
 			.footer-contacts .soc-icons {
 			   text-align: center;
 			   margin-top: 0px;
+			}
+
+			/*********neuro**************/
+
+			.neuro-top {
+				height: auto;
+				padding-right: 1rem !important;
+				-webkit-border-top-left-radius: 0px;
+				-moz-border-radius-topleft: 0px;
+				border-top-left-radius: 0px;
+			}
+
+			.neuro-img-background{
+				-webkit-border-top-right-radius: 50px;
+				-moz-border-radius-topright: 50px;
+				border-top-right-radius: 50px;
+				-webkit-border-top-left-radius: 0px;
+				-moz-border-radius-topleft: 0px;
+				border-top-left-radius: 0px;
+				position: relative;
+				overflow: hidden;
+			}
+
+			.neuro-about .bio-title h2 {
+			   color: #333333;
+			   text-transform: uppercase;
+			   font-size: 24px;
+			   margin-bottom: 29px;
+			}
+
+			.neuro-about .bio-title p {
+			    font-size: 12px;
+					line-height: 14px;
+			    color: #FF0000;
+			    margin-bottom: 8px;
+			}
+
+			.neuro-description{
+			  position: relative;
+			  height: auto;
+			  max-width: 100%;
+			  background-color: none;
+			  padding-left: 1rem;
+			  padding-right: 1rem;
+				margin-top: 16px;
+			}
+
+			.neuro-container h1{
+				font-size: 24px;
+				line-height: 29px;
+			}
+
+			.neuro-description p{
+				font-size: 14px;
+				line-height: 24px;
+			}
+
+			.neuro-about .activity{
+				padding: 0;
+			}
+
+			.neuro-about .activity-cart .activity-cart-title{
+				font-size: 24px;
+				line-height: 29px;
+			}
+
+			.neuro-about .activity-cart p{
+				font-size: 14px;
+				line-height: 24px;
+				margin-bottom: 24px;
+			}
+
+			.neuro-section .neuro-stat-container {
+			  border-right: none;
+			  padding-left: 0px;
+			  padding-right: 0px;
+				border-bottom: 1px solid #ffffff;
+				padding-bottom: 12px;
+				padding-top: 24px;
+			}
+
+			.neuro-section .neuro-stat .row>div:last-child .neuro-stat-container{
+				border-bottom: none;
+			}
+
+			.neuro-section {
+				padding-top: 24px;
+				padding-bottom: 24px;
+			}
+
+			.neuro-block .row{
+				flex-direction: column-reverse;
+				justify-content: flex-end;
+			}
+
+			.neuro-block h2 {
+			    padding-top: 14px;
+			    font-size: 24px;
+			    line-height: 29px;
 			}
 
 			/*******oncology********/
