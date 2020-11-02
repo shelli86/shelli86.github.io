@@ -1381,6 +1381,17 @@ form.blog-search {
 	border-radius: 10px;
 }
 
+.post .big{
+	font-size: 36px;
+	line-height: 38px;
+}
+
+.post .author{
+	text-align: right;
+	font-style: italic;
+	font-weight: 600;
+}
+
 
   @media (max-width: 767.98px) {
       .img-background{
@@ -1965,6 +1976,11 @@ form.blog-search {
 
 			.post-dark>div:last-child .post-stat{
 				border-bottom: none;
+			}
+
+			.post .big{
+				font-size: 24px;
+				line-height: 29px;
 			}
 
 }
