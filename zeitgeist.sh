@@ -29,7 +29,7 @@ Description=Zeitgeist Node
 After=network-online.target
 [Service]
 User=$USER
-ExecStart=$HOME/zeitgeist/target/release/zeitgeist --chain battery_park --bootnodes /ip4/139.162.171.58/tcp/30333/p2p/12D3KooWPvu5rpH2FNYnAmiQ8X8XqkMiuSFTjH2jwMCSjoam7RGQ --name "$NODENAME | DOUBLETOP" --validator --telemetry-url "wss://telemetry.zeitgeist.pm/submit/ 0"
+ExecStart=$HOME/zeitgeist/target/release/zeitgeist --chain battery_park --bootnodes /ip4/139.162.171.58/tcp/30333/p2p/12D3KooWPvu5rpH2FNYnAmiQ8X8XqkMiuSFTjH2jwMCSjoam7RGQ --name "$NODENAME | ZEITGEIST" --validator --telemetry-url "wss://telemetry.zeitgeist.pm/submit/ 0"
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
